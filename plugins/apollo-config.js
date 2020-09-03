@@ -4,7 +4,7 @@ export default (ctx) => {
     httpLinkOptions: {
       headers: {
         'Content-Type': 'application/json',
-        'X-Shopify-Storefront-Access-Token': '565f483ed905f72172cc3a0bd8c5bd35',
+        'X-Shopify-Storefront-Access-Token': process.env.SHOPIFY_STOREFRONT_KEY,
         Accept: 'application/json',
       },
     },
